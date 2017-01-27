@@ -16,7 +16,7 @@
           <h2>Your Order:</h2>
           <form id="pizza-order">
             <div class="form-group">
-              <label for="size">Size</label>
+              <label for="size">Size: Small-$4.99 / Medium-$7.99 / Large-$9.99</label>
               <select class="form-control" id="size">
                 <option></option>
                 <option>SMALL</option>
@@ -26,7 +26,7 @@
             </div>
             <br>
             <div class="form-group">
-              <label for="toppings">Toppings</label>
+              <label for="toppings">Toppings: $.50 each</label>
             </div>
             <div class="checkbox">
               <label>
@@ -62,9 +62,8 @@
             <button type="submit" class="btn">Order</button>
           </form>
 
-          <h2>Price</h2>
           <div id="price">
-            <p>You ordered a <span class="size-order"></span> pizza with<span id="toppings"></span>
+            <p>You ordered a <span class="size-order"></span> pizza with<span id="toppings"></span>.  Your order will be $<span class="final-price"></span>.</p>
 
           </div>
 
