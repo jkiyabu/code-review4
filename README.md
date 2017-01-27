@@ -18,12 +18,12 @@ _This application will allow you to order a pizza, with your choice of size and 
 __
 
 ## Application Specs
-* __
-  * **Example Input:**
-  * **Example Output:**
-* __
-  * **Example Input:**
-  * **Example Output:**
+* _The page will diplay what the user inputs as a size for pizza_
+  * **Example Input:** Small
+  * **Example Output:** You ordered a small pizza
+* _The page will display what the user inputs for a topping_
+  * **Example Input:** Pepperoni
+  * **Example Output:** You ordered a small pizza with pepperoni
 * __
   * **Example Input:**
   * **Example Output:**
