@@ -24,38 +24,40 @@
               </select>
             </div>
             <br>
-            <div class="form-group">
-              <label for="toppings">Toppings</label>
-            </div>
-            <div class="checkbox">
-              <label>
-                <input type="checkbox" value="option1" id="pepperoni">
-                Pepperoni
-              </label>
-            </div>
-            <div class="checkbox">
-              <label>
-                <input type="checkbox" value="option2" id="anchovies">
-                Anchovies
-              </label>
-            </div>
-            <div class="checkbox">
-              <label>
-                <input type="checkbox" value="option2" id="olives">
-                Olives
-              </label>
-            </div>
-            <div class="checkbox">
-              <label>
-                <input type="checkbox" value="option2" id="sausage">
-                Sausage
-              </label>
-            </div>
-            <div class="checkbox">
-              <label>
-                <input type="checkbox" value="option2" id="pineapple">
-                Pineapple
-              </label>
+            </div id="topping-check">
+              <div class="form-group">
+                <label for="toppings">Toppings</label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" name="topping" value="pepperoni">
+                  Pepperoni
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" name="topping" value="anchovies">
+                  Anchovies
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="option2" id="olives">
+                  Olives
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="option2" id="sausage">
+                  Sausage
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="option2" id="pineapple">
+                  Pineapple
+                </label>
+              </div>
             </div>
             <br>
             <button type="submit" class="btn">Order</button>
@@ -63,7 +65,10 @@
 
           <h2>Price</h2>
           <div id="price">
-            <p>You ordered a <span class="size-order"></span> pizza</p>
+            <p>You ordered a <span class="size-order"></span> pizza with </p>
+              <ul class="topping">
+                
+              </ul>
           </div>
 
         </div>
