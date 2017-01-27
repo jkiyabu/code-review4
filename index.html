@@ -9,16 +9,17 @@
   </head>
   <body>
     <div class="container">
-      <h1>Let's Order Your Pizza</h1>
-
+      <body background="img/background.jpg">
+      <div class="jumbotron">
+        <h1>Pizza Order</h1>
+      </div>
       <div class="row">
         <div class="col-md-4">
-          <h2>Your Order:</h2>
           <form id="pizza-order">
+            <h3>Your Order:</h3>
             <div class="form-group">
-              <label for="size">Size: Small-$4.99 / Medium-$7.99 / Large-$9.99</label>
+              <label for="size">Size: Small $4.99 / Medium $7.99 / Large $9.99</label>
               <select class="form-control" id="size">
-                <option></option>
                 <option>SMALL</option>
                 <option>MEDIUM</option>
                 <option>LARGE</option>
@@ -26,47 +27,66 @@
             </div>
             <br>
             <div class="form-group">
-              <label for="toppings">Toppings: $.50 each</label>
+              <label for="toppings">Toppings: Meat-$1.00 / Veggies-$.50</label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" name="topping" value=" pepperoni">
+                <input type="checkbox" name="meat" value=" pepperoni">
                 Pepperoni
               </label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" name="topping" value=" anchovies">
-                Anchovies
+                <input type="checkbox" name="meat" value=" chicken">
+                Chicken
               </label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" name="topping" value=" olives">
+                <input type="checkbox" name="veggies" value=" olives">
                 Olives
               </label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" name="topping" value=" sausage">
+                <input type="checkbox" name="meat" value=" sausage">
                 Sausage
               </label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" name="topping" value=" pineapple">
+                <input type="checkbox" name="veggies" value=" pineapple">
                 Pineapple
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="veggies" value=" peppers">
+                Peppers
               </label>
             </div>
             <br>
             <button type="submit" class="btn">Order</button>
           </form>
-
-          <div id="price">
-            <p>You ordered a <span class="size-order"></span> pizza with<span id="toppings"></span>.  Your order will be $<span class="final-price"></span>.</p>
-
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div id="price1">
+            <h3>Your Price:</h3>
+            <p>You ordered a <span class="size-order"></span> pizza.</p>
+            <p><span id="meat"></span></p>
+            <p><span id="veggies"></span></p>
+            <p>Your order will be: <span class="final-price"></span></p>
+            <br>
+            <img src="img/pizza.jpg" alt="">
           </div>
-
+          <div id="price2">
+            <h3>Your Price:</h3>
+            <p>You ordered a <span class="size-order"></span> pizza with no toppings.  Your order will be <span class="final-price"></span>.</p>
+            <br>
+            <img src="img/pizza.jpg" alt="">
+          </div>
         </div>
       </div>
     </div>

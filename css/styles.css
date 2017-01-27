@@ -1,3 +1,38 @@
-#price {
+#price1 {
   display: none;
+}
+
+#price2 {
+  display: none;
+}
+
+.final-price {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.jumbotron {
+  border: 5px solid white;
+  background-color: darkred;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-family: cursive;
+}
+
+body {
+  background-color: lightyellow;
+  color: white;
+}
+
+img {
+  width: 500px;
+  height: auto;
+  float: left;
+  border: 2px solid darkred;
+}
+
+.btn {
+  background-color: darkred;
+  font-size: 20px;
 }

@@ -15,7 +15,7 @@ _This application will allow you to order a pizza, with your choice of size and 
 
 ## Known Bugs
 
-__
+_Need to refresh page between each order_
 
 ## Application Specs
 * _The page will diplay what the user inputs as a size for pizza_
@@ -25,11 +25,11 @@ __
   * **Example Input:** Pepperoni
   * **Example Output:** You ordered a small pizza with pepperoni
 * _The page will display multiple toppings_
-  * **Example Input:** Pepperoni, Sausage
+  * **Example Input:** Pepperoni, Olives
   * **Example Output:** You ordered a small pizza with pepperoni, sausage
 * _The page will calculate total based on choice of size and toppings_
-  * **Example Input:** Small, Pepperoni, Sausage
-  * **Example Output:** You ordered a small pizza with pepperoni, sausage. Your total will be $5.99.
+  * **Example Input:** Small, Pepperoni, Olives
+  * **Example Output:** You ordered a small pizza with pepperoni, olives. Your total will be $5.99.
 
 
 
