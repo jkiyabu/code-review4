@@ -24,15 +24,13 @@ __
 * _The page will display what the user inputs for a topping_
   * **Example Input:** Pepperoni
   * **Example Output:** You ordered a small pizza with pepperoni
-* __
-  * **Example Input:**
-  * **Example Output:**
-* __
-  * **Example Input:**
-  * **Example Output:**
-* __
-  * **Example Input:**
-  * **Example Output:**
+* _The page will display multiple toppings_
+  * **Example Input:** Pepperoni, Sausage
+  * **Example Output:** You ordered a small pizza with pepperoni, sausage
+* _The page will calculate total based on choice of size and toppings_
+  * **Example Input:** Small, Pepperoni, Sausage
+  * **Example Output:** You ordered a small pizza with pepperoni, sausage. Your total will be $5.99.
+
 
 
 ## Technologies Used
