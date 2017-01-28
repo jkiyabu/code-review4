@@ -15,7 +15,7 @@ _This application will allow you to order a pizza, with your choice of size and 
 
 ## Known Bugs
 
-_Need to refresh page between each order_
+_no known bugs_
 
 ## Application Specs
 * _The page will diplay what the user inputs as a size for pizza_

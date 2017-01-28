@@ -1,3 +1,4 @@
+//business logic
 function Pizza(size, meat, veggies){
   this.size = size;
   this.meat = [meat];
@@ -19,10 +20,9 @@ Pizza.prototype.price = function() {
 
   var finalPrice = sizePrice + (.5 * this.veggies[0].length) + (this.meat[0].length);
   return finalPrice;
-  console.log(finalPrice);
 }
 
-
+//user interface logic
 $(document).ready(function() {
   $("#pizza-order").submit(function(event) {
     event.preventDefault();
