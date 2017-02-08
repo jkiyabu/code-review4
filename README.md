@@ -18,20 +18,15 @@ _This application will allow you to order a pizza, with your choice of size and 
 _no known bugs_
 
 ## Application Specs
-* _The page will diplay what the user inputs as a size for pizza_
-  * **Example Input:** Small
-  * **Example Output:** You ordered a small pizza
-* _The page will display what the user inputs for a topping_
-  * **Example Input:** Pepperoni
-  * **Example Output:** You ordered a small pizza with pepperoni
-* _The page will display multiple toppings_
-  * **Example Input:** Pepperoni, Olives
-  * **Example Output:** You ordered a small pizza with pepperoni, sausage
-* _The page will calculate total based on choice of size and toppings_
-  * **Example Input:** Small, Pepperoni, Olives
-  * **Example Output:** You ordered a small pizza with pepperoni, olives. Your total will be $5.99.
-
-
+* _The page will calculate price of pizza with no toppings_
+  * **Example Input:** Small pizza, no toppings
+  * **Example Output:** You ordered a small pizza with no toppings.  Your total will be $4.99.
+* _The page will calculate price of pizza with 1 topping_
+  * **Example Input:** Small pizza, Pepperoni
+  * **Example Output:** You ordered a small pizza with pepperoni.  Your total will be $5.49.
+* _The page will calculate price of pizza with multiple toppings_
+  * **Example Input:** Small pizza, Pepperoni, Olives
+  * **Example Output:** You ordered a small pizza with pepperoni, olives.  Your total will be $5.99.
 
 ## Technologies Used
 
